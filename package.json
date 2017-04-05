@@ -1,0 +1,22 @@
+{
+  "name": "juxly-fhir-browser",
+  "version": "1.0.0",
+  "description": "NodeJS scaffolding to serve Juxly FHIR Browswer web app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juxly/juxly-fhir-browser.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Juxly/juxly-fhir-browser/issues"
+  },
+  "homepage": "https://github.com/Juxly/juxly-fhir-browser#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

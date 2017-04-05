@@ -1,0 +1,9 @@
+// You would never do this in production.
+// But for our usage it's handy to load this information 
+// based on the FHIR sandbox that's launching us.
+var authInfoDefaults = {
+    aud: "https://your-nifty.fhir-sandbox.com/dstu2",
+    client_id: "00000000-0000-0000-0000-000000000000",
+    response_type: "code",
+    scope: "online_access launch openid profile patient/Binary.read patient/AllergyIntolerance.read patient/Condition.read patient/DiagnosticReport.read patient/Encounter.read patient/Immunization.read patient/MedicationOrder.read patient/MedicationStatement.read patient/Observation.read patient/Patient.read patient/Procedure.read"
+};
